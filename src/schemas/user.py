@@ -7,3 +7,4 @@ class UserSchema(BaseModel):
     password: str
     is_active: bool = Field(default=True)
     is_admin: bool = Field(default=False)
+    
